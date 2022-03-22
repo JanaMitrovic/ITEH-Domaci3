@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/recipes.css';
 import { useState } from 'react';
 import Modal from "./Modal";
-import Slika from '../img/muffin.jpg';
 import Recipes from './Recipes';
 
 const Recipe = ({recipe, AddToFavourites, RemoveFromFavourites, favourite}) => {
