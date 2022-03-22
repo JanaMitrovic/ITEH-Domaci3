@@ -1,0 +1,40 @@
+.modalContainer {
+  background-color: #03243d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal {
+  background-color: white;
+  width: 700px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.closeBtn {
+  background-color: #03243d;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.ing {
+  height: 100px;
+}
+
+.prep {
+  height: 150px;
+}
